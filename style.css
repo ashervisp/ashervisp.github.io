@@ -1,0 +1,116 @@
+#bio{
+  font-family: 'Bitter', serif;
+  font-size:3vw;
+  padding-bottom:2vw;
+  padding-left:1vw;
+  padding-right:1vw;
+  color:white;
+}
+
+#bio_box{
+  margin:auto;
+  ##width:35vw;
+  border-radius: .5vw 3.5vw .5vw;
+  margin-top: 8vw;
+}
+
+#bio_title{
+  font-family:'Bebas Neue',cursive;
+  font-size: 5vw;
+  text-align:center;
+}
+
+#contact{
+  font-family: 'Bitter', serif;
+  font-size:3vw;
+  padding-bottom:2vw;
+  padding-left:1vw;
+  padding-right:1vw;
+  color:white;
+}
+
+#contact_box{
+  margin:auto;
+  width:35vw;
+  margin-top: 8vw;
+}
+
+#contact_title{
+  font-family:'Bebas Neue',cursive;
+  font-size: 5vw;
+  text-align:center;
+}
+
+#contact_page{
+  background-color: #DC143C;
+}
+
+#discord{
+  border-radius: 1vw;
+  display:inline;
+}
+
+#home_page{
+  background-color: #DC143C;
+}
+
+.links{
+  text-decoration:none;
+
+}
+
+#me_page{
+  background-color: #DC143C;
+}
+
+#motto{
+  text-align:left;
+  font-size: 15vw;
+  font-family:'Bebas Neue',cursive;
+  padding-top:2vw;
+}
+
+#motto_background{
+  background-image:cyan;
+}
+
+#nav_bar{
+  text-align:right;
+}
+
+.pages{
+  text-decoration:none;
+  font-family:'Bebas Neue',cursive;
+  color:inherit;
+  font-size: 2.5vw;
+  padding-left: .5vw;
+}
+
+.projects{
+  font-family: 'Bitter', serif;
+  color:white;
+  font-size: 2vw;
+  text-align:center;
+ position:align;
+}
+
+#project_box{
+  margin-top: 8vw;
+
+
+}
+
+.project_caption{
+  color:white;
+
+}
+
+#project_title{
+  font-family:'Bebas Neue',cursive;
+  font-size: 5vw;
+  text-align:center;
+}
+
+#project_page{
+  background-color: #DC143C;
+}
