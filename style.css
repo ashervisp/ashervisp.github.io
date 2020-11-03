@@ -20,19 +20,33 @@
   text-align:center;
 }
 
-#contact{
+.contact{
   font-family: 'Bitter', serif;
   font-size:3vw;
-  padding-bottom:2vw;
-  padding-left:1vw;
-  padding-right:1vw;
+  text-decoration:none;
   color:white;
 }
 
 #contact_box{
   margin:auto;
-  width:35vw;
+  width:70vw;
   margin-top: 8vw;
+}
+
+.contact_link{
+  font-family: 'Bitter', serif;
+  font-size:3vw;
+  text-decoration:none;
+  color:white;
+}
+
+.contact_link:hover{
+  color:#008CBA;
+}
+
+.contact_stuff{
+  color:black;
+  font-weight: bold;
 }
 
 #contact_title{
@@ -42,7 +56,7 @@
 }
 
 #contact_page{
-  background-color: #DC143C;
+  background-color:  	#FF4500
 }
 
 #discord{
@@ -51,7 +65,7 @@
 }
 
 #home_page{
-  background-color: #DC143C;
+  background-color:  	#FF4500;
 }
 
 .links{
@@ -60,7 +74,7 @@
 }
 
 #me_page{
-  background-color: #DC143C;
+  background-color: 	#FF4500
 }
 
 #motto{
@@ -77,27 +91,72 @@
 #nav_bar{
   text-align:right;
 }
+.container{
+  position:relative;
+  width: 35%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.project_images{
+  width: 100%;
+  display:block;
+  height:auto;
+
+}
+
+.overlay{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  height: 100%;
+  width:100%;
+  opacity:0;
+  transition:.5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay{
+  opacity:1;
+}
+
+.text{
+  color:white;
+  font-family: 'Bitter', serif;
+  font-size:1vw;
+  position:absolute;
+  top: 35%;
+  left: 50%;
+  width:100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 
 .pages{
   text-decoration:none;
   font-family:'Bebas Neue',cursive;
   color:inherit;
-  font-size: 2.5vw;
+  font-size: 2.4vw;
   padding-left: .5vw;
+}
+
+.pages:hover{
+  color:white;
 }
 
 .projects{
   font-family: 'Bitter', serif;
   color:white;
   font-size: 2vw;
-  text-align:center;
- position:align;
 }
 
 #project_box{
   margin-top: 8vw;
-
-
 }
 
 .project_caption{
@@ -111,6 +170,14 @@
   text-align:center;
 }
 
+.project_t{
+  font-size:2.5vw;
+}
+
 #project_page{
-  background-color: #DC143C;
+  background-color: 	#FF4500
+}
+
+#title_change{
+  color:white;
 }
