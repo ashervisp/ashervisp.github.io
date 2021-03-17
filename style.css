@@ -1,183 +1,130 @@
-#bio{
-  font-family: 'Bitter', serif;
-  font-size:3vw;
-  padding-bottom:2vw;
-  padding-left:1vw;
-  padding-right:1vw;
-  color:white;
+body,html{
+  background-color:#355C7D ;
+  height: 100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  font-size: 1em;
+  scroll-behavior:smooth;
+  overflow:overlay;
 }
 
-#bio_box{
-  margin:auto;
-  ##width:35vw;
-  border-radius: .5vw 3.5vw .5vw;
-  margin-top: 8vw;
+#heading{
+  height:40%;
+  background-color:#355C7D;
 }
 
-#bio_title{
-  font-family:'Bebas Neue',cursive;
-  font-size: 5vw;
-  text-align:center;
-}
-
-.contact{
-  font-family: 'Bitter', serif;
-  font-size:3vw;
-  text-decoration:none;
-  color:white;
-}
-
-#contact_box{
-  margin:auto;
-  width:70vw;
-  margin-top: 8vw;
-}
-
-.contact_link{
-  font-family: 'Bitter', serif;
-  font-size:3vw;
-  text-decoration:none;
-  color:white;
-}
-
-.contact_link:hover{
-  color:#008CBA;
-}
-
-.contact_stuff{
+#title{
   color:black;
-  font-weight: bold;
-}
-
-#contact_title{
-  font-family:'Bebas Neue',cursive;
-  font-size: 5vw;
+  font-size:2em;
+  font-family: 'Press Start 2P', cursive;
   text-align:center;
+  margin:0;
+  padding:1.5em;
 }
 
-#contact_page{
-  background-color:  	#FF4500
+#contact{
+  color:white;
+  font-size:2em;
+  font-family: 'Press Start 2P', cursive;
+  text-align:center;
+  margin:0;
 }
 
-#discord{
-  border-radius: 1vw;
-  display:inline;
-}
+table{
+  margin:auto;
 
-#home_page{
-  background-color:  	#FF4500;
 }
 
 .links{
+  color: white;
+  font-family: 'Press Start 2p', cursive;
+  padding-right:1em;
+  margin:0;
+}
+
+.links span:hover{
+  color:black;
+  cursor:pointer;
+}
+
+.nav{
+  color: white;
+  font-family: 'Press Start 2p', cursive;
+  padding-right:1em;
+
+}
+
+.nav span:hover{
+  color:black;
+  cursor:pointer;
+}
+
+table a{
   text-decoration:none;
-
+  color:white;
 }
 
-#me_page{
-  background-color: 	#FF4500
-}
 
-#motto{
-  text-align:left;
-  font-size: 15vw;
-  font-family:'Bebas Neue',cursive;
-  padding-top:2vw;
-}
-
-#motto_background{
-  background-image:cyan;
-}
-
-#nav_bar{
-  text-align:right;
-}
-.container{
-  position:relative;
-  width: 35%;
-  margin-left:auto;
-  margin-right:auto;
-}
-
-.project_images{
-  width: 100%;
+#portfolio{
   display:block;
-  height:auto;
+  min-height:50%;
+  opacity: 0;
+  margin-left:1em;
+  margin-right:1em;
+}
+
+#webDev{
+opacity:0;
+list-style-type: none;
+text-align:center;
+padding:1em;
+margin:auto;
 
 }
 
-.overlay{
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  height: 100%;
-  width:100%;
-  opacity:0;
-  transition:.5s ease;
-  background-color: #008CBA;
-}
-
-.container:hover .overlay{
-  opacity:1;
-}
-
-.text{
-  color:white;
-  font-family: 'Bitter', serif;
-  font-size:1vw;
-  position:absolute;
-  top: 35%;
-  left: 50%;
-  width:100%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+#contact{
+  font-size:1em;
 }
 
 
-.pages{
-  text-decoration:none;
-  font-family:'Bebas Neue',cursive;
-  color:inherit;
-  font-size: 2.4vw;
-  padding-left: .5vw;
+
+li{
+    display:inline-block;
+    text-align:center;
+    padding-right: 1em;
 }
 
-.pages:hover{
-  color:white;
+li img{
+  max-height:200px;
+  max-width:200px;
+  border-radius:50%;
 }
 
-.projects{
-  font-family: 'Bitter', serif;
-  color:white;
-  font-size: 2vw;
+li a{
+   text-decoration: none;
+   color:white;
+   font-family: 'Press Start 2p', cursive;
 }
 
-#project_box{
-  margin-top: 8vw;
+li a:hover{
+  color:black;
 }
 
-.project_caption{
-  color:white;
+li span{
+ display: block;
 
 }
 
-#project_title{
-  font-family:'Bebas Neue',cursive;
-  font-size: 5vw;
-  text-align:center;
+.animatee{
+  opacity: 1 !important;
+  transition: opacity 1.6s ease 0s;
 }
-
-.project_t{
-  font-size:2.5vw;
+.animatee2{
+  opacity: 1 !important;
+  transition: opacity 1.6s ease 0s;
 }
-
-#project_page{
-  background-color: 	#FF4500
-}
-
-#title_change{
-  color:white;
+.animatee3{
+  opacity: 1 !important;
+  transition: opacity 1.6s ease 0s;
 }
