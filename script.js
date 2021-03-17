@@ -32,7 +32,7 @@ function showJavascript(){
 
   document.querySelector('#portfolio').style.backgroundColor = '#355C7D';
 
-  document.querySelector('#oneLink').href = 'https://github.com/ashervisp/discordBot'
+  document.querySelector('#oneLink').href = 'https://github.com/ashervisp/SmallGame'
   document.querySelector('#twoLink').href = 'https://github.com/ashervisp/Developer-Portfolio/tree/master/schedule_project'
   document.querySelector('#threeLink').href = 'https://github.com/ashervisp/Boba_Shop'
 
