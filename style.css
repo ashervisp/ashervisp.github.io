@@ -19,8 +19,7 @@ body,html{
   font-size:2em;
   font-family: 'Press Start 2P', cursive;
   text-align:center;
-  margin:0;
-  padding:1.5em;
+  padding:1em;
 }
 
 #contact{
@@ -85,8 +84,8 @@ margin:auto;
 
 #contact{
   font-size:1em;
+  text-align:center;
 }
-
 
 
 li{

@@ -36,6 +36,8 @@ function showJavascript(){
   document.querySelector('#twoLink').href = 'https://github.com/ashervisp/Developer-Portfolio/tree/master/schedule_project'
   document.querySelector('#threeLink').href = 'https://github.com/ashervisp/Boba_Shop'
 
+  document.querySelector('#third').style.display = 'inline-block';
+
 };
 
 function showData(){
@@ -60,6 +62,8 @@ function showData(){
   document.querySelector('#twoLink').href =  'https://github.com/ashervisp/Netflix-Analysis'
   document.querySelector('#threeLink').href = ''
 
+  document.querySelector('#third').style.display = 'none';
+  document.querySelector('#second').style.display = 'inline-block';
 };
 
 function showExtra(){
@@ -82,8 +86,17 @@ setTimeout(function(){
   document.querySelector('#twoLink').href = ''
   document.querySelector('#twoLink').href = ''
 
+  document.querySelector('#third').style.display = 'none';
+  document.querySelector('#second').style.display = 'none';
+
   document.querySelector('#portfolio').style.backgroundColor = '#355C7D';
 };
 
 
 typingEffect();
+
+function loadingScreen(){
+  document.querySelector('home').style.opacity = '0';
+}
+
+//window.onload = loadingScreen();
