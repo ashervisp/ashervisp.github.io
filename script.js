@@ -1,15 +1,23 @@
 let i = 0;
 let j = 0;
 let text = 'Asher Visperas'
-let text2 = 'ashvisperas@gmail.com'
+let text2 = '(─‿‿─)'
 let speed = 1000/8;
-
+let speed2 = 1000/10;
 
 function typingEffect(){
   if(i < text.length ){
     document.querySelector('#title').innerHTML += text.charAt(i);
     i++;
     setTimeout(typingEffect,speed);
+  }
+
+}
+function typingEffect2(){
+  if(j < text2.length ){
+    document.querySelector('#loading').innerHTML += text2.charAt(j);
+    j++;
+    setTimeout(typingEffect2,speed2);
   }
 
 }
@@ -36,6 +44,7 @@ function showJavascript(){
   document.querySelector('#twoLink').href = 'https://github.com/ashervisp/Developer-Portfolio/tree/master/schedule_project'
   document.querySelector('#threeLink').href = 'https://github.com/ashervisp/Boba_Shop'
 
+  document.querySelector('#second').style.display = 'inline-block';
   document.querySelector('#third').style.display = 'inline-block';
 
 };
@@ -92,11 +101,20 @@ setTimeout(function(){
   document.querySelector('#portfolio').style.backgroundColor = '#355C7D';
 };
 
+function loading(){
+//typingEffect2()
+document.querySelector('#loading').classList.add('animateeLoading');
+//typingEffect(text2)
+//i = 0;
+setTimeout(function(){
+  typingEffect()
+},2500);
 
-typingEffect();
+setTimeout(function(){
+  document.querySelector('#loading').style.zIndex = '-1'
+},3000);
 
-function loadingScreen(){
-  document.querySelector('home').style.opacity = '0';
 }
 
-//window.onload = loadingScreen();
+
+loading()
