@@ -1,9 +1,9 @@
 let i = 0;
 let j = 0;
 let text = 'Asher Visperas'
-let text2 = '(─‿‿─)'
+let text2 = '...'
 let speed = 1000/8;
-let speed2 = 1000/10;
+let speed2 = 1000;
 
 function typingEffect(){
   if(i < text.length ){
@@ -15,7 +15,7 @@ function typingEffect(){
 }
 function typingEffect2(){
   if(j < text2.length ){
-    document.querySelector('#loading').innerHTML += text2.charAt(j);
+    document.querySelector('#loading span').innerHTML += text2.charAt(j);
     j++;
     setTimeout(typingEffect2,speed2);
   }
@@ -102,13 +102,13 @@ setTimeout(function(){
 };
 
 function loading(){
-//typingEffect2()
+typingEffect2()
 document.querySelector('#loading').classList.add('animateeLoading');
 //typingEffect(text2)
 //i = 0;
 setTimeout(function(){
   typingEffect()
-},2500);
+},3000);
 
 setTimeout(function(){
   document.querySelector('#loading').style.zIndex = '-1'

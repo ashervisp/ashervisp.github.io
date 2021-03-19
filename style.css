@@ -149,5 +149,5 @@ li span{
 
 .animateeLoading{
   opacity: 0 !important;
-  transition: opacity 1s ease 1s;
+  transition: opacity 1s ease 3s;
 }
