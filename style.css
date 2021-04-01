@@ -62,8 +62,12 @@ table a{
   color:white;
 }
 
+#frontPage{
+
+}
 
 #portfolio{
+
   display:block;
   opacity: 0;
   margin-left:1em;
